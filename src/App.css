@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root {
+--main-white:#fff;
+--pink:rgb(218, 129, 129);
+--glass-gray:hsla(0, 45%, 98%, 0.379);
+--img-back:rgba(0, 0, 0, 0.543),rgba(0, 0, 0, 0.502);
+--glass-white:rgba(106, 101, 101, 0.214),rgba(112, 107, 112, 0.344);
+--glass-secondary:rgb(87, 10, 94),rgb(143, 64, 50);
+--glass-before:rgba(16, 15, 15, 0.146);
+--p-status:rgb(136, 135, 135);
+--blur:hsla(0, 0%, 100%, 0.03);
+--blur-small:hsla(0, 3%, 46%, 0.535);
+--secondary-cards:hsla(0, 5%, 66%, 0.16);
+}
+
+*::after,*::before {
+box-sizing: border-box;
+}
+
+img,picture {
+ max-width: 100%;
+}
